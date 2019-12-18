@@ -5,8 +5,8 @@
 뇌파 신호의 정확한 분류는 비정상적 뇌활동 감지에 대한 의학 연구에 대한  솔루션을 를 제공할 수 있다고 하네요. 근데 early phases in order to threat it 은 뭔 소리지.... ㅅㅂ  
 여튼 그래서 자기네들은 약간 다른 각도로 접근을 해볼건데 감정 분류를 할거랍니다. CNN이랑 RNN을 쪼인트 시켜서 디자인하고 AE 구조를 취해서 데이터의 High dimensionality 를 압축 할거라고 하네요. 
 
+본 프로젝트는 EEG 데이터의 전처리와 AE+CNN+RNN 을 이용한 컨볼루션을 포함합니다. 라고 하네요.
 
-Current project consists of EEG data processing and it's convolution using AutoEncoder + CNN + RNN
 
 ## Pre-processing
 [Report on Data Preprocessing ](https://github.com/nasoboleva/EEG-Emotion-Recognition/wiki/Препроцессинг-данных)
@@ -33,5 +33,6 @@ Another reason is that CNN is well-suited for the dimensional relevance represen
 
 In current work we are planning on using three types of layers: convolutional layers, pooling layers and fully connected layers.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MzM1ODU0MCwxODAwNjUwMDUxXX0=
+eyJoaXN0b3J5IjpbLTEzNjA4NjE1MjQsMTg4MzM1ODU0MCwxOD
+AwNjUwMDUxXX0=
 -->
