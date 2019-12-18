@@ -2,6 +2,7 @@
 #### HSE Computer Science Student's Project
 ###### Authors: Soboleva Natalia & Glazkova Ekaterina
 
+뇌파 신호의 정확한 분류는 ~(비정상적 뇌활동 감지에 대한 의학 연구)솔루션을 를 제공할 수 있다. 
 Accurate classification of EEG signals can provide the solution for medical researches of detecting abnormal brain behavior on its early phases in order to threat it. In this study we are looking at this task from slightly another angle -- emotions recognition. We design a joint of convolutional and recurrent neural networks with the usage of autoencoder to compress high dimentionality of the data.
 
 Current project consists of EEG data processing and it's convolution using AutoEncoder + CNN + RNN
@@ -30,3 +31,6 @@ The first autoencoder consists of two fully-connected layers with ReLU activatio
 Another reason is that CNN is well-suited for the dimensional relevance representations. The main purpose for convolutional neural network is to exploit spatial connections between different features in each signal.
 
 In current work we are planning on using three types of layers: convolutional layers, pooling layers and fully connected layers.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTgwMDY1MDA1MV19
+-->
